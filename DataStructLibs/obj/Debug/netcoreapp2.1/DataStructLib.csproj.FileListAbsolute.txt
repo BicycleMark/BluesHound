@@ -1,0 +1,9 @@
+D:\Both\Code\BluesHound\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.deps.json
+D:\Both\Code\BluesHound\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.dll
+D:\Both\Code\BluesHound\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.pdb
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.csproj.CoreCompileInputs.cache
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.AssemblyInfoInputs.cache
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.AssemblyInfo.cs
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.dll
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.pdb
+D:\Both\Code\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.csprojAssemblyReference.cache
