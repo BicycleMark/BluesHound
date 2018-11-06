@@ -1,0 +1,13 @@
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\ParserController.deps.json
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\ParserController.dll
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\ParserController.pdb
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\ContentLib.dll
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\DataStructLib.dll
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\ContentLib.pdb
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\bin\Debug\netcoreapp2.1\DataStructLib.pdb
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.csproj.CoreCompileInputs.cache
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.AssemblyInfoInputs.cache
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.AssemblyInfo.cs
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.csproj.CopyComplete
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.dll
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserController\obj\Debug\netcoreapp2.1\ParserController.pdb
