@@ -24,3 +24,4 @@ D:\Both\Code\BicycleMark\BluesHound\Classes\ContentLib\obj\Debug\netcoreapp2.1\C
 D:\Both\Code\BicycleMark\BluesHound\Classes\ContentLib\obj\Debug\netcoreapp2.1\ContentLib.AssemblyInfo.cs
 D:\Both\Code\BicycleMark\BluesHound\Classes\ContentLib\obj\Debug\netcoreapp2.1\ContentLib.dll
 D:\Both\Code\BicycleMark\BluesHound\Classes\ContentLib\obj\Debug\netcoreapp2.1\ContentLib.pdb
+D:\Both\Code\BicycleMark\BluesHound\Classes\ContentLib\obj\Debug\netcoreapp2.1\ContentLib.csprojAssemblyReference.cache

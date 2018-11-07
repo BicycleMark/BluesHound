@@ -1,0 +1,9 @@
+D:\Both\Code\BluesHound\HoundUtil\bin\Debug\netcoreapp2.1\HoundUtil.deps.json
+D:\Both\Code\BluesHound\HoundUtil\bin\Debug\netcoreapp2.1\HoundUtil.dll
+D:\Both\Code\BluesHound\HoundUtil\bin\Debug\netcoreapp2.1\HoundUtil.pdb
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.csprojAssemblyReference.cache
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.csproj.CoreCompileInputs.cache
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.AssemblyInfoInputs.cache
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.AssemblyInfo.cs
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.dll
+D:\Both\Code\BluesHound\HoundUtil\obj\Debug\netcoreapp2.1\HoundUtil.pdb

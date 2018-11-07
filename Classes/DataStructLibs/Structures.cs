@@ -11,7 +11,7 @@ namespace DataStructLibs
         public string Location      { get; set; }
         public string Venue         { get; set; }
         public float Cover          { get; set; }
-        public List<string> Talent  { get; set; }
+        public List<Talent> Talent  { get; set; }
     }
     
     public struct Address
@@ -43,5 +43,26 @@ namespace DataStructLibs
         public string Name { get; set; }
         public Address VenueAddress         { get; set; }
         public List<PhoneNumber>  Phone     { get; set; }
+        public List<Person> ContactPersons { get; set; }
+    }
+
+    public class Talent
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }    
+        public Person Contact{ get; set; }
+        public Address VenueAddress { get; set; }
+        
+    }
+
+    //public enum ContactType { Primary, Secondary}
+    //public enum Role { Manager, BarTender, BandLeader, Doorman, Unknown}
+    public class Person
+    {
+        public enum ContactType { Primary, Secondary }
+        public enum Role { Manager, BarTender, BandLeader, Doorman, Unknown }
+        public ContactType Type { get; set; }
+        public Role ContactRole { get; set; }
+        public List<PhoneNumber> Phone { get; set; }
     }
 }

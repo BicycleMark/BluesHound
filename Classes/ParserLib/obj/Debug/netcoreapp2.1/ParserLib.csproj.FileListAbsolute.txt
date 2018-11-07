@@ -24,3 +24,4 @@ D:\Both\Code\BicycleMark\BluesHound\Classes\ParserLib\obj\Debug\netcoreapp2.1\Pa
 D:\Both\Code\BicycleMark\BluesHound\Classes\ParserLib\obj\Debug\netcoreapp2.1\ParserLib.AssemblyInfo.cs
 D:\Both\Code\BicycleMark\BluesHound\Classes\ParserLib\obj\Debug\netcoreapp2.1\ParserLib.dll
 D:\Both\Code\BicycleMark\BluesHound\Classes\ParserLib\obj\Debug\netcoreapp2.1\ParserLib.pdb
+D:\Both\Code\BicycleMark\BluesHound\Classes\ParserLib\obj\Debug\netcoreapp2.1\ParserLib.csprojAssemblyReference.cache
