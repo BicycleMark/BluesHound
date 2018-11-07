@@ -13,7 +13,7 @@ namespace UnitTest
         public async Task TestWebstiteGrabberFromWeb()
         {
             //Arrange 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 
@@ -25,7 +25,7 @@ namespace UnitTest
         {
             //Arrange 
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(Constants.LocationType.FILE, @"Data\\TheBluesHound.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\TheBluesHound.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 

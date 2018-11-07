@@ -2,10 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\Classes",
+    "\\Classes\\ParserLib",
+    "\\Classes\\ParserLib\\Parsers",
     "\\Cloud",
     "\\Cloud\\HoundRG",
     "\\Tests"
   ],
-  "SelectedNode": "\\Tests",
+  "SelectedNode": "\\Classes\\ParserLib\\Parser.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,2 +1,3 @@
 D:\Both\Code\BluesHound\HoundRG\obj\Debug\HoundRG.deployproj.CoreCompileInputs.cache
 D:\Both\Code\BicycleMark\BluesHound\HoundRG\obj\Debug\HoundRG.deployproj.CoreCompileInputs.cache
+D:\Both\Code\BicycleMark\BluesHound\Cloud\HoundRG\obj\Debug\HoundRG.deployproj.CoreCompileInputs.cache

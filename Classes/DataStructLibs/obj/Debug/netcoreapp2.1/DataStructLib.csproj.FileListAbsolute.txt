@@ -19,7 +19,6 @@ D:\Both\Code\BicycleMark\BluesHound\DataStructLibs\obj\Debug\netcoreapp2.1\DataS
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.deps.json
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.dll
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\bin\Debug\netcoreapp2.1\DataStructLib.pdb
-D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.csprojAssemblyReference.cache
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.csproj.CoreCompileInputs.cache
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.AssemblyInfoInputs.cache
 D:\Both\Code\BicycleMark\BluesHound\Classes\DataStructLibs\obj\Debug\netcoreapp2.1\DataStructLib.AssemblyInfo.cs
