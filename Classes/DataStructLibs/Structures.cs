@@ -1,27 +1,33 @@
 ﻿using DataStructLib;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DataStructLibs
+namespace DataStructLib
 {
     public class Event
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public Guid Id              { get; set; }
         public DateTime EventDate   { get; set; } 
         public string Location      { get; set; }
-        public string Venue         { get; set; }
+        public Venue Venue         { get; set; }
         public float Cover          { get; set; }
         public List<Talent> Talent  { get; set; }
     }
     
-    public struct Address
+    public class Address
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public Guid Id                  { get; set; }
         public string Address1          { get; set; }
         public string Address2          { get; set; }
         public string City              { get; set; }
         public US_State State           { get; set; }
-        public List<string> PhoneNumber { get; set; }
+        public List<PhoneNumber> PhoneNumber { get; set; }
 
     }
 
@@ -31,14 +37,18 @@ namespace DataStructLibs
         Cell,
         Other
     }
-    public struct PhoneNumber
+    public class PhoneNumber
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public string Number { get; set; }
         public PhoneType Type { get; set; }
 
     }
     public class Venue
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
         public string Name { get; set; }
         public Address VenueAddress         { get; set; }
@@ -48,6 +58,8 @@ namespace DataStructLibs
 
     public class Talent
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
         public string Name { get; set; }    
         public Person Contact{ get; set; }
@@ -59,6 +71,9 @@ namespace DataStructLibs
     //public enum Role { Manager, BarTender, BandLeader, Doorman, Unknown}
     public class Person
     {
+        [Key]
+        [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
+        public Guid Id { get; set; }
         public enum ContactType { Primary, Secondary }
         public enum Role { Manager, BarTender, BandLeader, Doorman, Unknown }
         public ContactType Type { get; set; }

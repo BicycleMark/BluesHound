@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace DataStructLib
@@ -109,6 +110,7 @@ namespace DataStructLib
 
         public string Name { get; set; }
 
+        [Key]
         public string Abbreviations { get; set; }
 
         public override string ToString()

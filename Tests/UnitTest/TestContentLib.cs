@@ -1,4 +1,5 @@
 using ContentLib;
+using DataStructLib;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Threading.Tasks;
@@ -9,6 +10,16 @@ namespace UnitTest
     public class TestContentLib
     {
        
+        [TestMethod]
+        public void CreateEvenDBContext()
+        {
+            using (var db = new EventDBContext())
+            {
+                db.Database.EnsureCreated();
+                Assert.AreNotEqual(db, null);
+               
+            }
+        }
         [TestMethod]
         public async Task TestWebstiteGrabberFromWeb()
         {
