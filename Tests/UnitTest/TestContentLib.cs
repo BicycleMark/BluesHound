@@ -4,24 +4,15 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Threading.Tasks;
 
-namespace UnitTest
+namespace ContentLib
 {
     [TestClass]
     public class TestContentLib
     {
        
+       
         [TestMethod]
-        public void CreateEvenDBContext()
-        {
-            using (var db = new EventDBContext())
-            {
-                db.Database.EnsureCreated();
-                Assert.AreNotEqual(db, null);
-               
-            }
-        }
-        [TestMethod]
-        public async Task TestWebstiteGrabberFromWeb()
+        public async Task TestEventGrabberFromWeb()
         {
             //Arrange 
             HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/music-calendar");
@@ -32,11 +23,36 @@ namespace UnitTest
             Assert.AreNotEqual(String.Empty, str);
         }
         [TestMethod]
-        public async Task TestWebstiteGrabberFromFile()
+        public async Task TestVenueGrabberFromWeb()
+        {
+            //Arrange 
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.WEB, "https://theblueshound.com/venue-listing");
+            WebStiteGrabber wg = new WebStiteGrabber(iturl);
+            string str = await wg.GrabAsync();
+
+            //Assert
+            Assert.AreNotEqual(String.Empty, str);
+        }
+        
+        [TestMethod]
+        public async Task TestEventGrabberFromFile()
+        {
+      
+
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\Events.html");
+            WebStiteGrabber wg = new WebStiteGrabber(iturl);
+            string str = await wg.GrabAsync();
+
+            //Assert
+            Assert.AreNotEqual(String.Empty, str);
+        }
+
+        [TestMethod]
+        public async Task TestVenueGrabberFromFile()
         {
             //Arrange 
 
-            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\Events.html");
+            HtmlItem iturl = HtmlItemFactory.GetHtmlItem(ContentLib.Constants.LocationType.FILE, @"Data\\Venues.html");
             WebStiteGrabber wg = new WebStiteGrabber(iturl);
             string str = await wg.GrabAsync();
 

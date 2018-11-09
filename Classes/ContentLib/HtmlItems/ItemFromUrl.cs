@@ -65,51 +65,51 @@ namespace ContentLib
 
        
 
-        public async Task<int> Grab()
-        {
-            IsDownLoading = true;
+        //public async Task<int> Grab()
+        //{
+        //    IsDownLoading = true;
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
-            var resp = await request.GetResponseAsync();
-            var response = (HttpWebResponse)resp;
+        //    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Url);
+        //    WebResponse resp = await request.GetResponseAsync();
+        //    var response = (HttpWebResponse)resp;
 
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                try
-                {
-                    Stream receiveStream = response.GetResponseStream();
-                    Encoding enCoding = null;
-
-
-                    if (response.CharacterSet == null)
-                    {
-                        enCoding = Encoding.Default;
-                    }
-                    else
-                    {
-                        enCoding = Encoding.GetEncoding(response.CharacterSet);
-                    }
-                    //readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
-                    using (StreamReader readStream = new StreamReader(receiveStream, enCoding))
-
-                    {
-                        Html = await readStream.ReadToEndAsync();
+        //    if (response.StatusCode == HttpStatusCode.OK)
+        //    {
+        //        try
+        //        {
+        //            Stream receiveStream = response.GetResponseStream();
+        //            Encoding enCoding = null;
 
 
-                        readStream.Close();
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
+        //            if (response.CharacterSet == null)
+        //            {
+        //                enCoding = Encoding.Default;
+        //            }
+        //            else
+        //            {
+        //                enCoding = Encoding.GetEncoding(response.CharacterSet);
+        //            }
+        //            //readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
+        //            using (StreamReader readStream = new StreamReader(receiveStream, enCoding))
+
+        //            {
+        //                Html = await readStream.ReadToEndAsync();
+
+
+        //                readStream.Close();
+        //            }
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            Console.WriteLine(ex.Message);
+        //        }
 
 
 
-            }
-            IsDownLoading = false;
-            return Html.Length;
-        }
+        //    }
+        //    IsDownLoading = false;
+        //    return Html.Length;
+        //}
 
        
 
