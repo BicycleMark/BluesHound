@@ -37,7 +37,6 @@ D:\Both\Code\BicycleMark\BluesHound\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.cs
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\Data\TheBluesHound.html
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.deps.json
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.runtimeconfig.json
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\UnitTest.runtimeconfig.dev.json
@@ -54,3 +53,4 @@ D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\obj\Debug\netcoreapp2.1\UnitT
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\obj\Debug\netcoreapp2.1\UnitTest.pdb
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\DataStructLib.dll
 D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\DataStructLib.pdb
+D:\Both\Code\BicycleMark\BluesHound\Tests\UnitTest\bin\Debug\netcoreapp2.1\Data\Events.html
